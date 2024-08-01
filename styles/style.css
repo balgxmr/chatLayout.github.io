@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.mainContainer {
+  display: flex;
+}
+
+/* 
+ * 
+ * 
+ * 
+ * 
+ * Sección de Contactos 
+ * 
+ * 
+ * 
+ */
+.seccion-contacto {
+  background-color: #fff;
+  height: 100vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Bordes para los espacios/cajas */
+.espacioUsuario,
+.espacioNewChat,
+.chat {
+  border-bottom: 2px solid #bec1bb;
+}
+
+/* Caja del usuario */
+
+.espacioUsuario,
+.info-usuario {
+  display: flex;
+  flex-direction: row;
+}
+.espacioUsuario {
+  justify-content: space-between;
+  padding: 3% 5%;
+}
+
+.usuario-boton,
+.info-usuario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.foto-usuario {
+  display: flex;
+  align-items: center;
+}
+.foto-usuario img {
+  height: 50px;
+  width: auto;
+  border: 2px solid #bec1bb;
+  border-radius: 100%;
+}
+
+.estatus-usuario {
+  padding-left: 15px;
+}
+.estatus-usuario h3 {
+  font-weight: 500;
+  color: #010101;
+}
+.estatus-usuario h5 {
+  color: #838383;
+  font-weight: 400;
+}
+
+.usuario-boton i {
+  color: #bec1bb;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbutton {
+  background-color: #ffffff;
+  font-size: 20px;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbutton i:hover,
+.usuario-boton i:hover {
+  color: #838383;
+}
+.dropdown-contenido {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-contenido a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-contenido a:hover {
+  background-color: #e8ebe4;
+}
+.dropdown-contenido a:focus {
+  background-color: #bec1bb;
+}
+.dropdown:hover .dropdown-contenido {
+  display: block;
+}
+
+/* Espacio de botón: nuevo chat */
+.espacioNewChat {
+  text-align: center;
+  padding: 10% 0;
+}
+
+.espacioNewChat button {
+  background-color: #a491d2;
+  border: none;
+  padding: 6% 20%;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.espacioNewChat button:hover {
+  background-color: #9780cc;
+  transform: scale(1.05);
+}
+
+/* Espacio de los chats */
+.chat {
+  padding: 3% 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.chat img {
+  height: auto;
+  width: 70px;
+  border: 2px solid #bec1bb;
+  border-radius: 100%;
+}
+.estatus-usuario.contacto h3 {
+  font-size: 20px;
+}
+.estatus-usuario.contacto h5 {
+  font-size: 18px;
+  color: #010101;
+}
+
+/* 
+ * 
+ * 
+ * 
+ * 
+ * Sección Principal/Chat 
+ * 
+ * 
+ * 
+ */
+.seccion-principal {
+  background-color: #ebebeb;
+  border-left: 2px solid #bec1bb;
+  height: 100vh;
+  width: 100vw;
+}
