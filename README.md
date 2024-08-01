@@ -6,4 +6,4 @@ plataforma.
 
 ## Enlace al sitio web
 
-<placeholder>
+https://balgxmr.github.io/chatLayout.github.io/
