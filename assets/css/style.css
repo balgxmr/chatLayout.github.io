@@ -180,13 +180,14 @@
 }
 
 .seccion-principal h3 {
+  padding: 2% 0 0.8% 0;
   font-weight: 400;
   font-size: 3rem;
 }
 
 .seccion-principal h4 {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .seccion-principal img {
