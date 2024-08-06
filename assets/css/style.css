@@ -20,7 +20,7 @@
  */
 .seccion-contacto {
   background-color: #fff;
-  height: 100vh;
+  height: auto;
   width: 30vw;
   display: flex;
   flex-direction: column;
@@ -172,6 +172,24 @@
 .seccion-principal {
   background-color: #ebebeb;
   border-left: 2px solid #bec1bb;
-  height: 100vh;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion-principal h3 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.seccion-principal h4 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.seccion-principal img {
+  width: 350px;
+  height: auto;
 }
